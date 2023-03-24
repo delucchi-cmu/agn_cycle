@@ -17,6 +17,6 @@ def read_bmp(file_name, centroid):
     aperture_b = RectangularAnnulus(centroid, 50.0, 150.0, 150.0, 50.0)
     aperture_c = RectangularAnnulus(centroid, 100.0, 260.0, 260.0, 100.0)
     phot_table = aperture_photometry(np_img, [aperture_a, aperture_b, aperture_c])
-    print(phot_table)
+    # print(phot_table)
 
     return phot_table
