@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: v1.3.0
+_src_path: gh:lincc-frameworks/python-project-template
+author_email: delucchi-cmu@andrew.cmu.edu
+author_name: Melissa DeLucchi
+create_example_module: true
+custom_install: true
+include_notebooks: false
+module_name: agn_cycle
+mypy_type_checking: none
+preferred_linter: black
+project_license: BSD
+project_name: agn_cycle
+use_gitlfs: none
+use_isort: true
