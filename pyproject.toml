@@ -15,10 +15,12 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
+    "astropy",
     "deprecated",
     "ipykernel", # Support for Jupyter notebooks
     "photutils",
     "pandas",
+    "Pillow",
     "numpy",
     "scikit-learn",
 ]
