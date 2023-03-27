@@ -43,9 +43,6 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools_scm]
-write_to = "src/agn_cycle/_version.py"
-
 [tool.black]
 line-length = 110
 
