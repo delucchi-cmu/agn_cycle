@@ -17,6 +17,7 @@ def test_data_dir():
 def test_nrao_33333_data_dir(test_data_dir):
     return os.path.join(test_data_dir, "nrao_33333", "bmp")
 
+
 @pytest.fixture
 def test_mq_head_file(test_data_dir):
     return os.path.join(test_data_dir, "milliquas", "milliquas_head.csv")

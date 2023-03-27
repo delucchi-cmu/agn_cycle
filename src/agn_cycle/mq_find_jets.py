@@ -14,7 +14,7 @@ def read_csv(input_file):
     """foo"""
     _do_stuff(pd.read_csv(input_file))
 
+
 def _do_stuff(dataframe):
     print(dataframe.columns)
     print(dataframe.groupby(["TYPE"])["TYPE"].count())
-

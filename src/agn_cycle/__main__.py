@@ -14,6 +14,7 @@ def run_rectal():
     nrao_33333_dir = os.path.join(data_dir, "nrao_33333")
     process_directory(nrao_33333_dir)
 
+
 def run_mq():
     """Run"""
     data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
