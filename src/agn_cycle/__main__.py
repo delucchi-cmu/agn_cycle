@@ -3,7 +3,7 @@
 import os
 
 from agn_cycle.agn_rectal_exam import process_directory
-from agn_cycle.mq_find_jets import pull_jets, read_fits
+from agn_cycle.mq_find_jets import pull_jets, read_csv, read_fits
 
 
 def run_rectal():
@@ -21,10 +21,9 @@ def run_mq():
     mq_file = os.path.join(data_dir, "milliquas", "milliquas.fits")
     pull_jets(mq_file)
 
-    # mq_file = os.path.join(data_dir, "milliquas", "milliquas_head.csv")
-    # read_csv(mq_file)
+    mq_file = os.path.join(data_dir, "milliquas", "milliquas_lobes.csv.gz")
+    read_csv(mq_file)
 
 
 if __name__ == "__main__":
-    # run_rectal()
     run_mq()
