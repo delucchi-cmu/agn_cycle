@@ -1,1 +1,1 @@
-from .example_module import *
+from .agn_rectal_exam import *

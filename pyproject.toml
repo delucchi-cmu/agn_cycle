@@ -18,6 +18,9 @@ dependencies = [
     "deprecated",
     "ipykernel", # Support for Jupyter notebooks
     "photutils",
+    "pandas",
+    "PIL",
+    "numpy",
 ]
 
 # On a mac, install optional dependencies with `pip install '.[dev]'` (include the single quotes)
