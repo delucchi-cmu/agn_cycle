@@ -21,6 +21,7 @@ dependencies = [
     "pandas",
     "PIL",
     "numpy",
+    "scikit-learn",
 ]
 
 # On a mac, install optional dependencies with `pip install '.[dev]'` (include the single quotes)
