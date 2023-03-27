@@ -19,7 +19,6 @@ dependencies = [
     "ipykernel", # Support for Jupyter notebooks
     "photutils",
     "pandas",
-    "PIL",
     "numpy",
     "scikit-learn",
 ]

@@ -23,7 +23,7 @@ def test_exam(test_nrao_33333_data_dir):
 
 
 def test_regression():
-    """"more thing"""
+    """ "more thing"""
     responses = np.array(
         [
             -0.5751548022080019,

@@ -50,6 +50,7 @@ def regression(rectal_values, bristol_test):
     r_sq = model.score(bristol_test, rectal_values)
     print(f"coefficient of determination: {r_sq}")
 
+
 def process_directory(base_dir):
     """Assumes directory has the following format:
     <base_dir>/
